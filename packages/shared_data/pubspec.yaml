@@ -1,0 +1,17 @@
+name: shared_data
+description: A package with shared code for the Courier and Dispatcher courier_app.
+
+publish_to: 'none'
+resolution: workspace
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Dependencies needed for ApiService
+  dio: ^5.4.3
+  flutter_dotenv: ^6.0.0
+  shared_preferences: ^2.2.3

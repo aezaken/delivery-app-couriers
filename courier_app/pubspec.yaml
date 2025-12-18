@@ -1,0 +1,52 @@
+name: courier_app
+description: "A new Flutter project."
+
+publish_to: 'none'
+resolution: workspace
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_data:
+    path: ../packages/shared_data
+  shared_ui:
+    path: ../packages/shared_ui
+
+  # Firebase
+  firebase_core: ^4.2.1
+  firebase_messaging: ^16.0.4
+
+  # Основные пакеты для управления состоянием и DI
+  provider: ^6.1.2
+
+  # Уведомления
+  flutter_local_notifications: ^19.5.0 # Обновлено до последней мажорной версии
+
+  # Иконки и утилиты
+  cupertino_icons: ^1.0.8
+  intl: ^0.20.0 # Обновлено
+
+  # Хранилище и геолокация
+  shared_preferences: ^2.2.3
+  geolocator: ^14.0.0 # Обновлено до последней мажорной версии
+
+  # Сетевые запросы
+  dio: ^5.4.3
+  flutter_dotenv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0 # Обновлено до актуальной версии
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env # <-- ВОЗВРАЩАЕМ СТАНДАРТНЫЙ ПУТЬ

@@ -1,0 +1,41 @@
+name: dispatcher_app
+description: A new Flutter project.
+
+publish_to: 'none'
+resolution: workspace
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0 <4.0.0'
+
+dependencies:
+
+  flutter:
+    sdk: flutter
+  
+  shared_data:
+    path: ../packages/shared_data
+  shared_ui:
+    path: ../packages/shared_ui
+
+  # Yandex Maps - НОВЫЙ ПАКЕТ ДЛЯ ПОСЛЕДНЕЙ ВЕРСИИ
+  yandex_maps_mapkit: ^4.26.0-beta
+  
+  # Web Sockets
+  web_socket_channel: ^3.0.3
+
+  geolocator: ^14.0.0
+  http: ^1.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env
+    - assets/icons/courier_icon.png

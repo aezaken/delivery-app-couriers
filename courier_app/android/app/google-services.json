@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1044510284496",
+    "project_id": "delivery-notification-18771",
+    "storage_bucket": "delivery-notification-18771.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1044510284496:android:6bd27def7500a71251dcd5",
+        "android_client_info": {
+          "package_name": "com.example.courier_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDf8AWF6IS-FDBL6aTZit2bYVJBNBNmYGY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
